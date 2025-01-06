@@ -90,11 +90,7 @@
         <article class="program">
             <img src="WhatsApp Image 2024-11-11 at 19.25.52.jpeg" alt="Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah">
             <h4>Sosialisasi Pondok Pesantren Dhiaul Fikri</h4>
-            <p>Kami dengan bangga mengumumkan bahwa sosialisasi ini berlangsung dengan lancar, didukung oleh KB PII NTB dan PD PII Lombok Tengah.
-
-Tujuan kami? Memperkenalkan LBT 2024 yang akan datang pada bulan Desember! 🎉
-
-Terima kasih kepada semua pihak yang telah berkontribusi. Mari kita bersama-sama memajukan pendidikan dan membangun sinergi yang lebih kuat! 🤝</p>
+            <p>Kami dengan bangga mengumumkan bahwa sosialisasi ini berlangsung dengan lancar, didukung oleh KB PII NTB dan PD PII Lombok Tengah. Tujuan kami? Memperkenalkan LBT 2024 yang akan datang pada bulan Desember! 🎉 Terima kasih kepada semua pihak yang telah berkontribusi. Mari kita bersama-sama memajukan pendidikan dan membangun sinergi yang lebih kuat! 🤝</p>
         </article>
     </section>
 

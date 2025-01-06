@@ -27,7 +27,7 @@
         <h1>WELCOME TO PD PII KOTA MATARAM</h1>
         <p>Untuk informasi lebih lanjut, silakan klik di bawah ini:</p>
         <button>
-            <a href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="text-decoration: none; color: white;">DAFTAR SEKARANG!</a>
+            <a href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="text-decoration: none; color: white;">INFORMASI LEBIH LANJUT!</a>
         </button>
     </section>
 

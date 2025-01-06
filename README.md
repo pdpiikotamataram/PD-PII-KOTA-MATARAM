@@ -744,5 +744,4 @@ Terima kasih kepada semua pihak yang telah berkontribusi. Mari kita bersama-sama
         </p>
     </footer>
 </body>
-</html>
 

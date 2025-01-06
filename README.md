@@ -41,7 +41,7 @@
         </p>
     </section>
 
-    <section id="programs" class="content">
+    <section id="programs" class="content box">
         <h3>OUR PROGRAMS</h3>
         <article class="program">
             <img src="WhatsApp Image 2024-10-21 at 20.29.16.jpeg" alt="Konfersi Daerah (KONDA) ke XXVII/KE-27">

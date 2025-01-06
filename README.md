@@ -1,4 +1,3 @@
-<body/>
 * {
     margin: 0;
     padding: 0;
@@ -261,6 +260,14 @@ button:hover {
     opacity: 0; /* Animasi hilang */
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelajar Islam Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
     <header>
@@ -327,7 +334,7 @@ button:hover {
                 Yang di adakan di kota mataram, Sabtu, 06/Juli/2024, Yg di buat oleh Ketua Bidang oleh
                 Nabillatussalamah
                 
-                Dan di ketua panitiai oleh
+                Dan di ketua panitia oleh
                 Hamdi
                 
                 Sekaligus Ketua Bidang Komunikasi Umat (KU)
@@ -467,4 +474,4 @@ Terima kasih kepada semua pihak yang telah berkontribusi. Mari kita bersama-sama
         </p>
     </footer>
 </body>
-
+</html>

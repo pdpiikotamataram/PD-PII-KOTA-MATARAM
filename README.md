@@ -13,11 +13,11 @@
         </div>
           <nav>
              <ul>
+                <li><a href="#coming-soon">Coming Soon</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#programs">Programs</a></li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#management">Management</a></li>
-                <li><a href="#coming-soon">Coming Soon</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>

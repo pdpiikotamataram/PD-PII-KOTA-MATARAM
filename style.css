@@ -152,7 +152,7 @@ button:hover {
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
-    color: black; 
+    color: black;  /* Menetapkan warna teks menjadi Hitam */
 }
 
 /* Styles for the team section */

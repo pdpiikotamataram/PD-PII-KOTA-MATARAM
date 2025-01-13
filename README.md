@@ -177,6 +177,7 @@
     </section>
     <section id="coming-soon" class="content">
         <h2>COMING SOON</h2>
+        <h3>TA'LIM UMUM 2025</h3>
         <p>Information will be available soon.</p>
     </section>
 

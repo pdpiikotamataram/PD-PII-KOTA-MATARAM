@@ -11,8 +11,8 @@
         <div class="logo">
             <img src="IMG_9420.PNG" alt="Pengurus Daerah Pelajar Islam Indonesia">
         </div>
-        <nav>
-            <ul>
+          <nav>
+             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#programs">Programs</a></li>

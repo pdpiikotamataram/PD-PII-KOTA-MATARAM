@@ -42,22 +42,22 @@
     <section id="programs" class="content box">
         <h3>Program Kami</h3>
         <div class="programs-container">
-            <div class="program-card animate__animated animate__fadeIn">
+            <div class="program-card animate__animated animate__zoomIn">
                 <img src="WhatsApp Image 2024-10-21 at 20.29.16.jpeg" alt="Konfersi Daerah (KONDA) ke XXVII/KE-27">
                 <h4>Konfersi Daerah (KONDA) ke XXVII</h4>
                 <p>Perubahan kepengurusan Ketua Umum periode 2022/2023 ke periode 2023/2024.</p>
             </div>
-            <div class="program-card animate__animated animate__fadeIn">
+            <div class="program-card animate__animated animate__zoomIn">
                 <img src="WhatsApp Image 2024-10-21 at 20.30.04.jpeg" alt="HARBANAS PII KE-77">
                 <h4>HARBANAS PII KE-77</h4>
                 <p>Perayaan HARBANAS PII ke-77 dengan tema "Membangun Kolaborasi Indonesia".</p>
             </div>
-            <div class="program-card animate__animated animate__fadeIn">
+            <div class="program-card animate__animated animate__zoomIn">
                 <img src="WhatsApp Image 2024-10-21 at 20.30.05.jpeg" alt="Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah">
                 <h4>Sosialisasi dengan MTs-SA Madrasatul Qur'aniyah</h4>
                 <p>Acara Sosialisasi untuk siswa MTs-SA Madrasatul Qur'aniyah.</p>
             </div>
-            <div class="program-card animate__animated animate__fadeIn">
+            <div class="program-card animate__animated animate__zoomIn">
                 <img src="image copy 11.png" alt="Ta'lim Bersama">
                 <h4>Ta'lim Bersama</h4>
                 <p>Penguatan karakter melalui iman dan ilmu agama yang kokoh.</p>

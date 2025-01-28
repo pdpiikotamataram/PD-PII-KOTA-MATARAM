@@ -320,7 +320,7 @@
     </section>
     <section id="coming-soon" class="content">
         <h2>COMING SOON</h2>
-        <p>Information will be available soon.</p>
+        <p>TA'LIM UMUM 2025.</p>
     </section>
 
     <footer id="contact">

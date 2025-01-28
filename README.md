@@ -177,22 +177,21 @@
         </nav>
     </header>
 
-    <section id="home" class="intro box">
-        <h1>WELCOME TO PD PII KOTA MATARAM</h1>
-        <p>Untuk informasi lebih lanjut, silakan klik di bawah ini:</p>
-        <button>
-            <a>href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">INFORMASI LEBIH LANJUT!</a>
-        </button>
-    </section>
+   <section id="home" class="intro box">
+    <h1>WELCOME TO PD PII KOTA MATARAM</h1>
+    <p>Untuk informasi lebih lanjut, silakan klik di bawah ini:</p>
+    <button>
+        <a href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">INFORMASI LEBIH LANJUT!</a>
+    </button>
+</section>
 
-    <!-- New Coming Soon Section -->
-    <section id="coming-soon" class="content box">
-        <h2>COMING SOON:TA'LIM UMUM 2025</h2>
-        <p>
-        </p>
-        <h3>Poster: </h3>
-        <p>Click <a"https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="(https://www.instagram.com/pd_pii_mataram/p/DFNtt_AT6Y9/)/a> to view the event poster.</p>
-    </section>
+   <!-- New Coming Soon Section -->
+<section id="coming-soon" class="content box">
+    <h2>COMING SOON: TA'LIM UMUM 2025</h2>
+    <p></p>
+    <h3>Poster: </h3>
+    <p>Click <a href="https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">here</a> to view the event poster.</p>
+</section>
 
     <section id="about" class="content box">
         <h2>SEJARAH PELAJAR ISLAM INDONESIA</h2>

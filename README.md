@@ -187,12 +187,12 @@
 
     <!-- New Coming Soon Section -->
     <section id="coming-soon" class="content box">
-        <h2>COMING SOON: TAHFIZH, LITERASI ISLAM, & IMPACTFUL PROGRAMS</h2>
+        <h2>COMING SOON:TA'LIM UMUM 2025</h2>
         <p>
             Kami akan segera mempersembahkan berbagai kegiatan baru seperti Tahfizh Program, Pelatihan Literasi Islam, dan kegiatan-kegiatan yang bermanfaat untuk umat. Ikuti terus untuk informasi lebih lanjut!
         </p>
         <h3>Poster: </h3>
-        <p>Click <a href="https://example.com/poster-link" target="_blank">here</a> to view the event poster.</p>
+        <p>Click <ahttps://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==/a> to view the event poster.</p>
     </section>
 
     <section id="about" class="content box">

@@ -25,9 +25,9 @@
 
     <section id="home" class="intro box">
         <h1>Selamat Datang di PD PII Kota Mataram</h1>
-        <p>Untuk informasi lebih lanjut, silakan klik tombol berikut:</p>
+        <p>Untuk informasi lebih lanjut, TA'LIM UMUM 2025:</p>
         <button>
-            <a href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Daftar Sekarang!</a>
+            <a href="https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">Daftar Sekarang!</a>
         </button>
     </section>
 
@@ -189,8 +189,7 @@
 
     <section id="coming-soon" class="content">
         <h2>Segera Hadir</h2>
-        <p>TA'LIM UMUM 2025
-https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==.</p>
+        <p>TA'LIM UMUM 2025</p>
     </section>
 
     <footer id="contact">

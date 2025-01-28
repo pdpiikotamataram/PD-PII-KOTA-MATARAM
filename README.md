@@ -5,198 +5,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelajar Islam Indonesia</title>
     <style>
-        /* Basic styles for the page */
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            color: #333;
+            background-color: #f4f4f4;
         }
 
-        /* Header and Navigation */
         header {
-            background-color: #004D40;
+            background-color: #333;
             color: white;
-            text-align: center;
             padding: 15px;
+            text-align: center;
         }
 
-        header .logo img {
-            width: 150px;
-            margin-bottom: 10px;
+        .logo img {
+            width: 100px;
+            height: auto;
         }
 
-        header nav ul {
+        nav ul {
             list-style: none;
             padding: 0;
         }
 
-        header nav ul li {
+        nav ul li {
             display: inline;
-            margin: 0 15px;
+            margin-right: 20px;
         }
 
-        header nav ul li a {
+        nav ul li a {
             color: white;
             text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
         }
 
-        header nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Section Styles */
-        section {
-            margin: 20px;
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
             padding: 20px;
             background-color: white;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         h1, h2, h3 {
-            font-family: 'Arial', sans-serif;
-            color: #004D40;
+            color: #333;
         }
 
-        /* Box Class for Consistency */
-        .box {
-            background-color: #fafafa;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
         }
 
-        /* Button Styles */
-        .btn-primary {
-            background-color: #004D40;
-            color: white;
-            padding: 12px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+        h2 {
+            font-size: 2em;
+            margin-top: 40px;
+            text-align: center;
         }
 
-        .btn-primary a {
-            color: white;
-            text-decoration: none;
+        h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            text-align: center;
         }
 
-        .btn-primary:hover {
-            background-color: #00796B;
-        }
-
-        /* Program Cards Layout */
-        .programs-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .program-card {
-            width: 250px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-
-        .program-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .program-card img {
-            width: 100%;
-            height: auto;
-            border-bottom: 2px solid #ddd;
-        }
-
-        .program-card h4 {
-            font-size: 18px;
-            padding: 10px;
-            color: #004D40;
-            margin: 0;
-        }
-
-        .program-card p {
-            font-size: 14px;
-            padding: 10px;
-            color: #555;
-        }
-
-        /* Team Section Styling */
         .team {
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
-            justify-content: center;
+            justify-items: center;
         }
 
         .team-member {
-            width: 200px;
+            background-color: #f8f8f8;
+            padding: 15px;
             text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .team-member img {
-            width: 100%;
-            height: auto;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
         .team-member h5 {
-            font-size: 16px;
-            font-weight: bold;
+            font-size: 1.2em;
+            margin: 10px 0;
         }
 
         .team-member p {
-            font-size: 14px;
-            color: #555;
+            font-size: 1em;
+            color: #666;
         }
 
-        /* Footer Styling */
         footer {
-            background-color: #004D40;
+            background-color: #333;
             color: white;
-            text-align: center;
             padding: 20px;
+            text-align: center;
         }
 
         footer a {
-            color: #f4f4f4;
+            color: #fff;
             text-decoration: none;
         }
 
-        footer a:hover {
-            text-decoration: underline;
+        button a {
+            color: white;
+            text-decoration: none;
         }
 
-        /* Mobile Responsiveness */
-        @media (max-width: 768px) {
-            header nav ul {
-                text-align: center;
-            }
-
-            header nav ul li {
-                display: block;
-                margin: 10px 0;
-            }
-
-            .programs-container {
-                flex-direction: column;
-            }
-
-            .team {
-                flex-direction: column;
-                align-items: center;
-            }
+        .intro {
+            background-color: #6A5ACD;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
         }
+
+        .intro button {
+            background-color: #ff6347;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .intro button:hover {
+            background-color: #ff4500;
+        }
+
+        .content.box {
+            margin-top: 40px;
+            padding: 30px;
+        }
+
+        .programs img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .program {
+            margin-bottom: 30px;
+        }
+
+        .team-member img {
+            object-fit: cover;
+        }
+
     </style>
 </head>
 
@@ -219,8 +180,8 @@
 
     <section id="home" class="intro box">
         <h1>WELCOME TO PD PII KOTA MATARAM</h1>
-        <p>For more information, click below:</p>
-        <button class="btn-primary">
+        <p>Untuk informasi lebih lanjut, silakan klik di bawah ini:</p>
+        <button>
             <a href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">INFORMASI LEBIH LANJUT!</a>
         </button>
     </section>
@@ -228,142 +189,59 @@
     <section id="about" class="content box">
         <h2>SEJARAH PELAJAR ISLAM INDONESIA</h2>
         <p>
-            Pelajar Islam Indonesia, founded in 1947, is an organization dedicated to addressing student-related issues and shaping future leaders. With continuous programs for character building and Islamic training, PII plays a key role in forming Muslim, intellectual, and leadership qualities among students.
+            Pelajar Islam Indonesia yang berdiri sejak tahun 1947 merupakan organisasi yang bergerak sebagai wadah penanganan problematika pelajar. 
+            Dengan perkembangan zaman, organisasi ini tetap berkomitmen untuk mencetak generasi pemimpin pelajar. 
+            Pelajar Islam Indonesia memiliki program yang mendukung pembentukan karakter pelajar yang muslim, cendekia, dan pemimpin. 
+            Selain itu, PII juga mengatasi permasalahan melalui training yang diadakan setiap tahun sebagai kontribusi dalam pembentukan akhlak dan moral pelajar.
         </p>
     </section>
 
     <section id="programs" class="content box">
         <h3>OUR PROGRAMS</h3>
-        <div class="programs-container">
-            <!-- Program 1 -->
-            <div class="program-card">
-                <img src="WhatsApp Image 2024-10-21 at 20.29.16.jpeg" alt="Konfersi Daerah (KONDA) ke XXVII/KE-27">
-                <h4>Konfersi Daerah (KONDA) ke XXVII/KE-27</h4>
-                <p>Pergantian Kepengurusan Ketua Umum Periode 2022/2023 dengan 2023/2024.</p>
-            </div>
-            <!-- Program 2 -->
-            <div class="program-card">
-                <img src="WhatsApp Image 2024-10-21 at 20.30.04.jpeg" alt="HARBANAS PII KE -77">
-                <h4>HARBANAS PII KE -77</h4>
-                <p>Harbanas PII ke-77 dengan tema Membangun Kolaborasi Indonesia.</p>
-            </div>
-            <!-- Program 3 -->
-            <div class="program-card">
-                <img src="WhatsApp Image 2024-10-21 at 20.30.05.jpeg" alt="Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah">
-                <h4>Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah</h4>
-                <p>Socialization event with MTs-SA Madrasatul Qur'aniyah students.</p>
-            </div>
-            <!-- Program 4 -->
-            <div class="program-card">
-                <img src="image copy 11.png" alt="Ta'lim Bersama">
-                <h4>Ta'lim Bersama</h4>
-                <p>Character building starts with a strong faith and belief in Allah and His Messenger.</p>
-            </div>
-        </div>
+        <article class="program">
+            <img src="WhatsApp Image 2024-10-21 at 20.29.16.jpeg" alt="Konfersi Daerah (KONDA) ke XXVII/KE-27">
+            <h4>Konfersi Daerah (KONDA) ke XXVII/KE-27</h4>
+            <p>Pergantian Kepengurusan Ketua Umum Periode 2022/2023 dengan 2023/2024</p>
+        </article>
+        <article class="program">
+            <img src="WhatsApp Image 2024-10-21 at 20.30.04.jpeg" alt="HARBANAS PII KE -77">
+            <h4>HARBANAS PII KE -77</h4>
+            <p>Keluarga besar pelajar islam indonesia NTB telah mengadakan Harbanas PII ke-77 bersama Kanda/Yunda KB PII NTB di SMAN 3 MATARAM dengan Tema Membangun Kolaborasi Indonesia</p>
+        </article>
     </section>
 
     <section id="management" class="content box">
         <h2>STRUKTUR ORGANISASI</h2>
         <div class="team">
-           <section id="management" class="content box">
-    <h2>STRUKTUR ORGANISASI</h2>
-    <div class="team">
-        <div class="team-member">
-            <img src="WhatsApp Image 2024-10-21 at 20.29.14 (1).jpeg" alt="Sekretaris Umum - Cahaya Cinta Ilahi">
-            <h5>Sekretaris Umum</h5>
-            <p>Cahaya Cinta Ilahi</p>
-        </div>
-        <div class="team-member">
-            <img src="WhatsApp Image 2024-10-21 at 20.29.14.jpeg" alt="Ketua Umum - M. Qaerul Ibad">
-            <h5>Ketua Umum</h5>
-            <p>M. Qaerul Ibad</p>
-        </div>
-        <div class="team-member">
-            <img src="WhatsApp Image 2024-10-21 at 20.29.14 (2).jpeg" alt="Bendahara Umum - Rizkiyana Intan Pratiwi">
-            <h5>Bendahara Umum</h5>
-            <p>Rizkiyana Intan Pratiwi</p>
-        </div>
-    </div>
-
-    <h2>KEPENGURUSAN INTI</h2>
-    <div class="team">
-        <div class="team-member">
-            <img src="image.png" alt="Ketua Bidang Kaderisasi - Nabilatussalamah">
-            <h5>Ketua Bidang Kaderisasi</h5>
-            <p>Nabilatussalamah</p>
-        </div>
-        <div class="team-member">
-            <img src="WhatsApp Image 2024-10-27 at 19.59.48 (1).jpeg" alt="Ketua Bidang Pengembangan dan Pemberdayaan Organisasi - Roy Afriyansah">
-            <h5>Ketua Bidang PPO</h5>
-            <p>Roy Afriyansah</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 2.png" alt="Ketua Bidang KU - Hamdi">
-            <h5>Ketua Bidang KU</h5>
-            <p>Hamdi</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy.png" alt="Ketua Bidang Keputrian - Nadiratul Munawarah">
-            <h5>Ketua Bidang Keputrian</h5>
-            <p>Nadiratul Munawarah</p>
-        </div>
-    </div>
-
-    <h2>ANGGOTA</h2>
-    <div class="team">
-        <div class="team-member">
-            <img src="image copy 3.png" alt="Anggota Bidang Kaderisasi - Pahmi Hanif Supake">
-            <h5>Anggota Bidang Kaderisasi</h5>
-            <p>Pahmi Hanif Supake</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 4.png" alt="Anggota Bidang Kaderisasi - Rizki Wahyu Kurniawan">
-            <h5>Anggota Bidang Kaderisasi</h5>
-            <p>Rizki Wahyu Kurniawan</p>
-        </div>
-        <div class="team-member">
-            <img src="" alt="">
-            <h5>Anggota Bidang PPO</h5>
-            <p>Hamdani Saputra</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 5.png" alt="Anggota Bidang KU - Zayyid Zen">
-            <h5>Anggota Bidang KU</h5>
-            <p>Zayyid Zen</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 12.png" alt="">
-            <h5>Anggota Bidang KU</h5>
-            <p>Zulkarnaen</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 6.png" alt="Anggota Bidang KU - Isnia Diani">
-            <h5>Anggota Bidang KU</h5>
-            <p>Isnia Diani</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 7.png" alt="Anggota Bidang KU - Zaenudin Hadi">
-            <h5>Anggota Bidang KU</h5>
-            <p>Zaenudin Hadi</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 8.png" alt="Anggota Bidang Keputrian - Hanifa Amalia">
-            <h5>Anggota Bidang Keputrian</h5>
-            <p>Hanifa Amalia</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 9.png" alt="Anggota Bidang Keputrian - Dian Aprilia">
-            <h5>Anggota Bidang Keputrian</h5>
-            <p>Dian Aprilia</p>
-        </div>
-        <div class="team-member">
-            <img src="image copy 10.png" alt="Anggota Bidang Keputrian - Fitriana">
-            <h5>Anggota Bidang Keputrian</h5>
-            <p>Fitriana</p>
-        </div>
-    </div>
-</section>
-
+            <div class="team-member">
+                <img src="WhatsApp Image 2024-10-21 at 20.29.14 (1).jpeg" alt="Sekretaris Umum - Cahaya Cinta Ilahi">
+                <h5>Sekretaris Umum</h5>
+                <p>Cahaya Cinta Ilahi</p>
+            </div>
+            <div class="team-member">
+                <img src="WhatsApp Image 2024-10-21 at 20.29.14.jpeg" alt="Ketua Umum - M. Qaerul Ibad">
+                <h5>Ketua Umum</h5>
+                <p>M. Qaerul Ibad</p>
+            </div>
+            <div class="team-member">
+                <img src="WhatsApp Image 2024-10-21 at 20.29.14 (2).jpeg" alt="Bendahara Umum - Rizkiyana Intan Pratiwi">
+                <h5>Bendahara Umum</h5>
+                <p>Rizkiyana Intan Pratiwi</p>
+            </div>
+            <div class="team-member">
+                <img src="image.png" alt="Ketua Bidang Kaderisasi - Nabilatussalamah">
+                <h5>Ketua Bidang Kaderisasi</h5>
+                <p>Nabilatussalamah</p>
+            </div>
+            <div class="team-member">
+                <img src="WhatsApp Image 2024-10-27 at 19.59.48 (1).jpeg" alt="Ketua Bidang Pengembangan dan Pemberdayaan Organisasi - Roy Afriyansah">
+                <h5>Ketua Bidang PPO</h5>
+                <p>Roy Afriyansah</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 2.png" alt="Ketua Bidang KU - Hamdi">
+                <h5>Ketua Bidang KU</h5>
+                <p>Hamdi</p>
             </div>
         </div>
     </section>

@@ -52,7 +52,7 @@
         <article class="program">
             <img src="WhatsApp Image 2024-10-21 at 20.30.04.jpeg" alt="HARBANAS PII KE -77">
             <h4>HARBANAS PII KE -77</h4>
-            <p>Keluarga besar pelajar islam indonesia NTB telah mengadakan Harbanas PII ke-77 bersama Kanda/Yunda KB PII NTB di SMAN 3 MATARAM dengan Tema Membangun Kolaborasi Indonesia</p>
+            <p>Keluarga Besar PII NTB, HARBANAS PII ke-77, di SMAN 3 MATARAM, Tema Membangun Kolaborasi Indonesia</p>
         </article>
         <article class="program">
             <img src="WhatsApp Image 2024-10-21 at 20.30.05.jpeg" alt="Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah">
@@ -67,34 +67,12 @@
         <article class="program">
             <img src="image copy 13.png" alt="Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah">
             <h4>PRA-BATRA 2024</h4>
-            <p>Kepengurusan Daerah Kota Mataram Telah membuat agenda acara yaitu #Pra-Batra
-
-                Yang di adakan di kota mataram, Sabtu, 06/Juli/2024, Yg di buat oleh Ketua Bidang oleh
-                Nabillatussalamah
-                
-                Dan di ketua panitia oleh
-                Hamdi
-                
-                Sekaligus Ketua Bidang Komunikasi Umat (KU)
-                
-                Dan sekretaris Panitia adalah
-                Nadirratul Munawarah
-                
-                Di Ketahui Oleh
-                Ketua Umum #PengurusdaerahmataramPII
-                M. Qaerul Ibad
-                
-                Kami dari #kepengurusandaerahkotamataram
-                Mengucapkan terimakasih telah mengikuti acara kegiatan Pra-Batra yg insyaallah dari Pra-Batra ini teman" Tertarik akan mengikuti kegiatan selanjutnya terutama awal Training yg akan datang (LBT) Coming Soon</p>
+            <p>Kepengurusan Daerah Kota Mataram Telah membuat agenda acara yaitu #Pra-Batra, Yang di adakan di kota mataram, Sabtu, 06/Juli/2024.</p>
         </article>
         <article class="program">
             <img src="WhatsApp Image 2024-11-11 at 19.25.52.jpeg" alt="Sosialisasi bersama MTs-SA Madrasatul Qur'aniyah">
             <h4>Sosialisasi Pondok Pesantren Dhiaul Fikri</h4>
-            <p>Kami dengan bangga mengumumkan bahwa sosialisasi ini berlangsung dengan lancar, didukung oleh KB PII NTB dan PD PII Lombok Tengah.
-
-Tujuan kami? Memperkenalkan LBT 2024 yang akan datang pada bulan Desember! 🎉
-
-Terima kasih kepada semua pihak yang telah berkontribusi. Mari kita bersama-sama memajukan pendidikan dan membangun sinergi yang lebih kuat! 🤝</p>
+            <p>Kami dengan bangga mengumumkan bahwa sosialisasi ini berlangsung dengan lancar, didukung oleh KB PII NTB dan PD PII Lombok Tengah. Tujuan kami? Memperkenalkan LBT 2024 yang akan datang pada bulan Desember! 🎉. Terima kasih kepada semua pihak yang telah berkontribusi. Mari kita bersama-sama memajukan pendidikan dan membangun sinergi yang lebih kuat! 🤝</p>
         </article>
     </section>
 

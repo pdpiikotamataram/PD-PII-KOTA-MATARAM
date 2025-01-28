@@ -3,163 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelajar Islam Indonesia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-
-        .logo img {
-            width: 100px;
-            height: auto;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .content {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2, h3 {
-            color: #333;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        h3 {
-            font-size: 1.5em;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .team {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            justify-items: center;
-        }
-
-        .team-member {
-            background-color: #f8f8f8;
-            padding: 15px;
-            text-align: center;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .team-member img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-
-        .team-member h5 {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-
-        .team-member p {
-            font-size: 1em;
-            color: #666;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        button a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .intro {
-            background-color: #6A5ACD; /* Replace this line with your new background color or image */
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        .intro button {
-            background-color: #ff6347;
-            padding: 10px 20px;
-            border: none;
-            font-size: 1.1em;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-
-        .intro button:hover {
-            background-color: #ff4500;
-        }
-
-        .content.box {
-            margin-top: 40px;
-            padding: 30px;
-        }
-
-        .programs img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .program {
-            margin-bottom: 30px;
-        }
-
-        .team-member img {
-            object-fit: cover;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
-
 <body>
     <header>
         <div class="logo">
@@ -185,10 +30,8 @@
     </button>
 </section>
 
-   <!-- New Coming Soon Section -->
 <section id="coming-soon" class="content box">
     <h2>COMING SOON: TA'LIM UMUM 2025</h2>
-    <p></p>
     <h3>Poster: </h3>
     <p>Click <a href="https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">here</a> to view the event poster.</p>
 </section>
@@ -236,88 +79,6 @@
                 <p>Rizkiyana Intan Pratiwi</p>
             </div>
         </div>
-
-        <h2>KEPENGURUSAN INTI</h2>
-        <div class="team">
-            <div class="team-member">
-                <img src="image.png" alt="Ketua Bidang Kaderisasi - Nabilatussalamah">
-                <h5>Ketua Bidang Kaderisasi</h5>
-                <p>Nabilatussalamah</p>
-            </div>
-            <div class="team-member">
-                <img src="WhatsApp Image 2024-10-27 at 19.59.48 (1).jpeg" alt="Ketua Bidang Pengembangan dan Pemberdayaan Organisasi - Roy Afriyansah">
-                <h5>Ketua Bidang PPO</h5>
-                <p>Roy Afriyansah</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 2.png" alt="Ketua Bidang KU - Hamdi">
-                <h5>Ketua Bidang KU</h5>
-                <p>Hamdi</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy.png" alt="Ketua Bidang Keputrian - Nadiratul Munawarah">
-                <h5>Ketua Bidang Keputrian</h5>
-                <p>Nadiratul Munawarah</p>
-            </div>
-        </div>
-
-        <h2>ANGGOTA</h2>
-        <div class="team">
-            <div class="team-member">
-                <img src="image copy 3.png" alt="Anggota Bidang Kaderisasi - Pahmi Hanif Supake">
-                <h5>Anggota Bidang Kaderisasi</h5>
-                <p>Pahmi Hanif Supake</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 4.png" alt="Anggota Bidang Kaderisasi - Rizki Wahyu Kurniawan">
-                <h5>Anggota Bidang Kaderisasi</h5>
-                <p>Rizki Wahyu Kurniawan</p>
-            </div>
-            <div class="team-member">
-                <img src="" alt="">
-                <h5>Anggota Bidang PPO</h5>
-                <p>Hamdani Saputra</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 5.png" alt="Anggota Bidang KU - Zayyid Zen">
-                <h5>Anggota Bidang KU</h5>
-                <p>Zayyid Zen</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 12.png" alt="">
-                <h5>Anggota Bidang KU</h5>
-                <p>Zulkarnaen</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 6.png" alt="Anggota Bidang KU - Isnia Diani">
-                <h5>Anggota Bidang KU</h5>
-                <p>Isnia Diani</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 7.png" alt="Anggota Bidang KU - Zaenudin Hadi">
-                <h5>Anggota Bidang KU</h5>
-                <p>Zaenudin Hadi</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 8.png" alt="Anggota Bidang Keputrian - Hanifa Amalia">
-                <h5>Anggota Bidang Keputrian</h5>
-                <p>Hanifa Amalia</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 9.png" alt="Anggota Bidang Keputrian - Dian Aprilia">
-                <h5>Anggota Bidang Keputrian</h5>
-                <p>Dian Aprilia</p>
-            </div>
-            <div class="team-member">
-                <img src="image copy 10.png" alt="Anggota Bidang Keputrian - Fitriana">
-                <h5>Anggota Bidang Keputrian</h5>
-                <p>Fitriana</p>
-            </div>
-        </div>
-    </section>
-    <section id="coming-soon" class="content">
-        <h2>COMING SOON</h2>
-        <p>TA'LIM UMUM 2025.</p>
     </section>
 
     <footer id="contact">
@@ -332,3 +93,277 @@
     </footer>
 </body>
 </html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+header .logo img {
+    height: 70px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('Subway\,\ Camille\ Unknown.gif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 18px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
+
+/* Content Sections */
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content h2, .content h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Box style for sections */
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Program Section */
+.programs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.program {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.program img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.program-description {
+    text-align: justify;
+}
+
+.program-description h4 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.program-description p {
+    font-size: 16px;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 150px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h5 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+
+    .content h2, .content h3 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    .team-member {
+        max-width: 100%;
+    }
+
+    .program {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .program img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 24px;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .content h2, .content h3 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .team-member h5 {
+        font-size: 14px;
+    }
+}

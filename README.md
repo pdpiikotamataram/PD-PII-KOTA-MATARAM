@@ -181,7 +181,7 @@
         <h1>WELCOME TO PD PII KOTA MATARAM</h1>
         <p>Untuk informasi lebih lanjut, silakan klik di bawah ini:</p>
         <button>
-            <a>href=""https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="" target="_blank">INFORMASI LEBIH LANJUT!</a>
+            <a>href="https://www.instagram.com/pd_pii_mataram?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">INFORMASI LEBIH LANJUT!</a>
         </button>
     </section>
 
@@ -189,10 +189,9 @@
     <section id="coming-soon" class="content box">
         <h2>COMING SOON:TA'LIM UMUM 2025</h2>
         <p>
-            Kami akan segera mempersembahkan berbagai kegiatan baru seperti Tahfizh Program, Pelatihan Literasi Islam, dan kegiatan-kegiatan yang bermanfaat untuk umat. Ikuti terus untuk informasi lebih lanjut!
         </p>
         <h3>Poster: </h3>
-        <p>Click <[ahttps://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==](https://www.instagram.com/pd_pii_mataram/p/DFNtt_AT6Y9/)/a> to view the event poster.</p>
+        <p>Click <a"https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="(https://www.instagram.com/pd_pii_mataram/p/DFNtt_AT6Y9/)/a> to view the event poster.</p>
     </section>
 
     <section id="about" class="content box">

@@ -301,7 +301,6 @@
                 <h5>Anggota Bidang Keputrian</h5>
                 <p>Fitriana</p>
             </div>
-        </div>
 
             </div>
         </div>

@@ -1,31 +1,29 @@
-/* Reset semua margin dan padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Umum */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f4f8; /* Warna latar belakang yang lebih terang dan bersih */
-    color: #333;
+    background-color: #1f1f1f; /* Background gelap */
+    color: #f4f4f4; /* Teks putih untuk kontras */
     line-height: 1.6;
+    font-size: 16px;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004080; /* Warna header yang lebih gelap */
-    padding: 15px 20px;
-    color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #212121; /* Dark grey untuk kesan serius */
+    padding: 15px 30px;
+    color: #fff;
+    border-bottom: 3px solid #ffcc00; /* Akcent warna emas untuk pemisah */
 }
 
 header .logo img {
-    height: 60px;
+    height: 70px;
 }
 
 nav ul {
@@ -38,18 +36,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #f4f4f4;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s ease, transform 0.2s ease;
+    letter-spacing: 1px;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
-    transform: scale(1.1);
+    color: #ffcc00; /* Hover effect untuk kesan aktif */
 }
 
-/* Intro Section */
 .intro {
     display: flex;
     flex-direction: column;
@@ -59,35 +56,34 @@ nav ul li a:hover {
     background-image: url('Subway\,\ Camille\ Unknown.gif');
     background-size: cover;
     background-position: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Menambahkan bayangan untuk teks */
+    color: #fff;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.7); /* Bayangan dalam untuk efek gelap */
 }
 
 .intro h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); /* Teks lebih menonjol */
 }
 
 .intro p {
-    font-size: 20px;
-    margin-bottom: 30px;
-    max-width: 700px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Teks dengan bayangan lebih kontras */
 }
 
 button {
-    padding: 14px 28px;
+    padding: 14px 30px;
     background-color: #ffcc00;
-    color: #003366;
+    color: #212121;
     border: none;
-    border-radius: 30px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
     font-size: 18px;
-}
-
-button:hover {
-    background-color: #ffd700;
-    transform: scale(1.05);
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 button a {
@@ -95,86 +91,70 @@ button a {
     color: inherit;
 }
 
-/* Content Box */
+button:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+}
+
 .content {
-    padding: 60px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
 .content h2, .content h3 {
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 30px;
-    color: #003366;
+    color: #ffcc00; /* Warna kuning untuk menonjolkan heading */
 }
 
-/* Program Section */
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    background-color: #2a2a2a; /* Background gelap untuk kotak */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Bayangan lebih dramatis */
+    margin: 30px 0;
+}
+
 .programs-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .program {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .program img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.program-description {
-    max-width: 700px;
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 25px;
 }
 
 .program-description h4 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 10px;
-    color: #003366;
+    color: #ffcc00;
 }
 
 .program-description p {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-/* Footer Section */
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    margin-top: 40px;
-}
-
-footer h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-footer p {
     font-size: 16px;
 }
 
-/* Box Styles */
-.box {
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 30px;
-    margin: 20px 0;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Team Member Styles */
 .team {
     display: flex;
     justify-content: center;
@@ -184,7 +164,8 @@ footer p {
 
 .team-member {
     text-align: center;
-    max-width: 180px;
+    max-width: 160px;
+    color: #f4f4f4;
 }
 
 .team-member img {
@@ -193,35 +174,77 @@ footer p {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    transition: transform 0.3s ease;
 }
 
 .team-member h5 {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #003366;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
-.team-member:hover img {
-    transform: scale(1.1);
+footer {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-top: 3px solid #ffcc00;
 }
 
-/* Message Popup */
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Message popup styling */
 .message {
     position: fixed;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 15px 25px;
+    padding: 12px 30px;
     background-color: #ffcc00;
-    color: #003366;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #212121;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     opacity: 0;
     transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .message.fade-out {
     opacity: 0;
 }
 
+/* Coming soon section */
+#coming-soon {
+    background-color: #333;
+    padding: 50px 20px;
+    text-align: center;
+    color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+#coming-soon p {
+    font-size: 18px;
+    margin-top: 20px;
+}

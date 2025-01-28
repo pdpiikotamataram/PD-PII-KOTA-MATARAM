@@ -242,6 +242,67 @@
                 <img src="image copy 2.png" alt="Ketua Bidang KU - Hamdi">
                 <h5>Ketua Bidang KU</h5>
                 <p>Hamdi</p>
+             <div class="team-member">
+                <img src="image copy.png" alt="Ketua Bidang Keputrian - Nadiratul Munawarah">
+                <h5>Ketua Bidang Keputrian</h5>
+                <p>Nadiratul Munawarah</p>
+            </div>
+        </div>
+
+        <h2>ANGGOTA</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="image copy 3.png" alt="Anggota Bidang Kaderisasi - Pahmi Hanif Supake">
+                <h5>Anggota Bidang Kaderisasi</h5>
+                <p>Pahmi Hanif Supake</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 4.png" alt="Anggota Bidang Kaderisasi - Rizki Wahyu Kurniawan">
+                <h5>Anggota Bidang Kaderisasi</h5>
+                <p>Rizki Wahyu Kurniawan</p>
+            </div>
+            <div class="team-member">
+                <img src="" alt="">
+                <h5>Anggota Bidang PPO</h5>
+                <p>Hamdani Saputra</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 5.png" alt="Anggota Bidang KU - Zayyid Zen">
+                <h5>Anggota Bidang KU</h5>
+                <p>Zayyid Zen</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 12.png" alt="">
+                <h5>Anggota Bidang KU</h5>
+                <p>Zulkarnaen</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 6.png" alt="Anggota Bidang KU - Isnia Diani">
+                <h5>Anggota Bidang KU</h5>
+                <p>Isnia Diani</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 7.png" alt="Anggota Bidang KU - Zaenudin Hadi">
+                <h5>Anggota Bidang KU</h5>
+                <p>Zaenudin Hadi</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 8.png" alt="Anggota Bidang Keputrian - Hanifa Amalia">
+                <h5>Anggota Bidang Keputrian</h5>
+                <p>Hanifa Amalia</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 9.png" alt="Anggota Bidang Keputrian - Dian Aprilia">
+                <h5>Anggota Bidang Keputrian</h5>
+                <p>Dian Aprilia</p>
+            </div>
+            <div class="team-member">
+                <img src="image copy 10.png" alt="Anggota Bidang Keputrian - Fitriana">
+                <h5>Anggota Bidang Keputrian</h5>
+                <p>Fitriana</p>
+            </div>
+        </div>
+
             </div>
         </div>
     </section>

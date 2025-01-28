@@ -189,7 +189,8 @@
 
     <section id="coming-soon" class="content">
         <h2>Segera Hadir</h2>
-        <p>Informasi akan segera tersedia.</p>
+        <p>TA'LIM UMUM 2025
+https://www.instagram.com/p/DFNtt_AT6Y9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==.</p>
     </section>
 
     <footer id="contact">

@@ -6,20 +6,18 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1f1f1f; /* Background gelap */
-    color: #f4f4f4; /* Teks putih untuk kontras */
-    line-height: 1.6;
-    font-size: 16px;
+    background-color: #f4f4f9;
+    color: #333;
 }
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #212121; /* Dark grey untuk kesan serius */
-    padding: 15px 30px;
-    color: #fff;
-    border-bottom: 3px solid #ffcc00; /* Akcent warna emas untuk pemisah */
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
 }
 
 header .logo img {
@@ -32,58 +30,51 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #f4f4f4;
+    color: white;
     text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 500;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ffcc00; /* Hover effect untuk kesan aktif */
+    color: #ffcc00;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
     text-align: center;
     background-image: url('Subway\,\ Camille\ Unknown.gif');
     background-size: cover;
     background-position: center;
-    color: #fff;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.7); /* Bayangan dalam untuk efek gelap */
+    color: white;
 }
 
 .intro h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); /* Teks lebih menonjol */
+    font-size: 36px;
+    margin-bottom: 15px;
 }
 
 .intro p {
     font-size: 18px;
-    margin-bottom: 40px;
-    max-width: 800px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Teks dengan bayangan lebih kontras */
+    margin-bottom: 30px;
+    max-width: 600px;
 }
 
 button {
-    padding: 14px 30px;
+    padding: 12px 25px;
     background-color: #ffcc00;
-    color: #212121;
+    color: #003366;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s;
 }
 
 button a {
@@ -93,7 +84,6 @@ button a {
 
 button:hover {
     background-color: #ffd700;
-    transform: scale(1.05);
 }
 
 .content {
@@ -102,149 +92,171 @@ button:hover {
 }
 
 .content h2, .content h3 {
-    font-size: 42px;
-    margin-bottom: 30px;
-    color: #ffcc00; /* Warna kuning untuk menonjolkan heading */
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .content p {
     font-size: 18px;
     margin-bottom: 30px;
-    max-width: 900px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Box style for sections */
 .box {
-    background-color: #2a2a2a; /* Background gelap untuk kotak */
+    background-color: white;
     border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Bayangan lebih dramatis */
-    margin: 30px 0;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
 }
 
+/* Styles for the Programs section */
 .programs-container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .program {
     display: flex;
     align-items: center;
-    background-color: #333333;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
 }
 
 .program img {
-    width: 220px;
+    width: 200px;
     height: auto;
     border-radius: 10px;
-    margin-right: 25px;
+    margin-right: 20px;
+}
+
+.program-description {
+    text-align: justify;
 }
 
 .program-description h4 {
     font-size: 24px;
-    margin-bottom: 10px;
-    color: #ffcc00;
+    margin: 0 0 10px;
 }
 
 .program-description p {
     font-size: 16px;
 }
 
+/* Center text for specific sections */
+.content.box p,
+#coming-soon p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Styles for the team section */
 .team {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .team-member {
     text-align: center;
-    max-width: 160px;
-    color: #f4f4f4;
+    max-width: 150px;
 }
 
 .team-member img {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .team-member h5 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: 600;
+    font-size: 15px;
+    margin: 10px 0;
 }
 
+/* Footer styles */
 footer {
-    background-color: #212121;
-    color: #fff;
+    background-color: #003366;
+    color: white;
     text-align: center;
-    padding: 25px;
-    border-top: 3px solid #ffcc00;
+    padding: 20px;
 }
 
 footer h2 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 footer p {
     font-size: 14px;
-    color: #ddd;
-}
-
-footer a {
-    color: #ffcc00;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #ffd700;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-/* Message popup styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Warna latar belakang yang lebih terang */
+    color: #333;
+}
+
+header {
+    background-color: #004080; /* Warna header yang lebih gelap */
+}
+
+.intro {
+    background-image: url('Subway\,\ Camille\ Unknown.gif');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Warna teks putih */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Menambahkan bayangan untuk kontras */
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 18px; /* Ukuran font yang lebih besar */
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: scale(1.05); /* Sedikit efek zoom saat hover */
+}
+
+.box {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih lembut */
+}
+
 .message {
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 12px 30px;
+    padding: 10px 20px;
     background-color: #ffcc00;
-    color: #212121;
+    color: #003366;
     border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     opacity: 0;
-    transition: opacity 0.3s ease;
-    font-size: 18px;
-    font-weight: bold;
+    transition: opacity 0.3s;
 }
 
 .message.fade-out {
-    opacity: 0;
+    opacity: 0; /* Animasi hilang */
 }
 
-/* Coming soon section */
-#coming-soon {
-    background-color: #333;
-    padding: 50px 20px;
-    text-align: center;
-    color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-}
-
-#coming-soon p {
-    font-size: 18px;
-    margin-top: 20px;
-}

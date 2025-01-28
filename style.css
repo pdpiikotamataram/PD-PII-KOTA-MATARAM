@@ -1,7 +1,7 @@
 /* Basic styles for the page */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #f0f5f5;
     margin: 0;
     padding: 0;
     color: #333;
@@ -9,7 +9,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #004d40;
+    background-color: #009688;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -37,19 +37,19 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #ffcc00;
+    color: #ff9800;
 }
 
 /* Welcome section */
 #home {
     text-align: center;
     padding: 50px 20px;
-    background-color: #00796b;
+    background-color: #0288d1;
     color: white;
     animation: fadeInUp 1s ease-out;
 }
@@ -61,10 +61,11 @@ header nav ul li a:hover {
 
 #home p {
     font-size: 1.5em;
+    margin-bottom: 30px;
 }
 
 .btn-primary {
-    background-color: #ffcc00;
+    background-color: #ff9800;
     color: white;
     padding: 12px 24px;
     font-size: 18px;
@@ -80,7 +81,7 @@ header nav ul li a:hover {
 }
 
 .btn-primary:hover {
-    background-color: #ffa000;
+    background-color: #f57c00;
     transform: translateY(-3px);
 }
 
@@ -94,7 +95,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: #00796b;
+    color: #0288d1;
 }
 
 /* Box Class for Consistency */
@@ -139,7 +140,7 @@ h1, h2, h3 {
 .program-card h4 {
     font-size: 20px;
     padding: 20px;
-    color: #00796b;
+    color: #0288d1;
     margin: 0;
     font-weight: 600;
 }
@@ -181,32 +182,5 @@ h1, h2, h3 {
 
 .team-member h5 {
     font-size: 18px;
-    font-weight: 500;
-    color: #00796b;
-}
-
-.team-member p {
-    font-size: 14px;
-    color: #777;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #004d40;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    margin-top: 40px;
-}
-
-footer h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-footer p {
-    font-size: 16px;
-}
-
-footer a {
-   
+    font-weight: 600;
+    color: #0288d1

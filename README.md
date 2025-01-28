@@ -65,27 +65,32 @@
         </div>
     </section>
 
+    <!-- Structure Organization Section -->
     <section id="management" class="content box">
         <h2>Struktur Organisasi</h2>
-        <div class="team">
-            <div class="team-member">
-                <img src="WhatsApp Image 2024-10-21 at 20.29.14 (1).jpeg" alt="Sekretaris Umum - Cahaya Cinta Ilahi">
-                <h5>Sekretaris Umum</h5>
-                <p>Cahaya Cinta Ilahi</p>
-            </div>
-            <div class="team-member">
-                <img src="WhatsApp Image 2024-10-21 at 20.29.14.jpeg" alt="Ketua Umum - M. Qaerul Ibad">
-                <h5>Ketua Umum</h5>
+        <div class="organization">
+            <!-- Ketua Umum -->
+            <div class="org-card">
+                <img src="WhatsApp Image 2024-10-21 at 20.29.14.jpeg" alt="Ketua Umum">
+                <h4>Ketua Umum</h4>
                 <p>M. Qaerul Ibad</p>
             </div>
-            <div class="team-member">
-                <img src="image2.jpg" alt="Pengurus 1 - Nama">
-                <h5>Wakil Ketua Umum</h5>
+            <!-- Sekretaris Umum -->
+            <div class="org-card">
+                <img src="WhatsApp Image 2024-10-21 at 20.29.14 (1).jpeg" alt="Sekretaris Umum">
+                <h4>Sekretaris Umum</h4>
+                <p>Cahaya Cinta Ilahi</p>
+            </div>
+            <!-- Wakil Ketua Umum -->
+            <div class="org-card">
+                <img src="image2.jpg" alt="Wakil Ketua Umum">
+                <h4>Wakil Ketua Umum</h4>
                 <p>Nama Pengurus 1</p>
             </div>
-            <div class="team-member">
-                <img src="image3.jpg" alt="Pengurus 2 - Nama">
-                <h5>Pengurus 2</h5>
+            <!-- Pengurus Lainnya -->
+            <div class="org-card">
+                <img src="image3.jpg" alt="Pengurus Lainnya">
+                <h4>Pengurus 2</h4>
                 <p>Nama Pengurus 2</p>
             </div>
         </div>

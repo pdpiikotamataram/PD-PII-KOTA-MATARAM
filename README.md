@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +5,7 @@
     <title>Pelajar Islam Indonesia Kota Mataram</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -65,29 +65,24 @@
         </div>
     </section>
 
-    <!-- Structure Organization Section -->
     <section id="management" class="content box">
         <h2>Struktur Organisasi</h2>
         <div class="organization">
-            <!-- Ketua Umum -->
             <div class="org-card">
                 <img src="WhatsApp Image 2024-10-21 at 20.29.14.jpeg" alt="Ketua Umum">
                 <h4>Ketua Umum</h4>
                 <p>M. Qaerul Ibad</p>
             </div>
-            <!-- Sekretaris Umum -->
             <div class="org-card">
                 <img src="WhatsApp Image 2024-10-21 at 20.29.14 (1).jpeg" alt="Sekretaris Umum">
                 <h4>Sekretaris Umum</h4>
                 <p>Cahaya Cinta Ilahi</p>
             </div>
-            <!-- Wakil Ketua Umum -->
             <div class="org-card">
                 <img src="image2.jpg" alt="Wakil Ketua Umum">
                 <h4>Wakil Ketua Umum</h4>
                 <p>Nama Pengurus 1</p>
             </div>
-            <!-- Pengurus Lainnya -->
             <div class="org-card">
                 <img src="image3.jpg" alt="Pengurus Lainnya">
                 <h4>Pengurus 2</h4>

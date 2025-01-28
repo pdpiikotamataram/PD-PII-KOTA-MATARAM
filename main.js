@@ -1,29 +1,24 @@
-// Menambahkan animasi scroll-to-top saat tombol di klik
-document.querySelector('.btn-primary a').addEventListener('click', function(event) {
-    event.preventDefault();
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
+document.getElementById('learnMoreBtn').addEventListener('click', function() {
+    const userResponse = confirm('Welcome to Pelajar Islam Indonesia! Would you like to explore more sections?');
 
-// Menambahkan animasi untuk Struktur Organisasi saat scroll
-window.addEventListener('scroll', function() {
-    const elements = document.querySelectorAll('.org-card');
-    elements.forEach(function(element) {
-        const position = element.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-
-        if (position < windowHeight - 100) {
-            element.classList.add('animate__animated', 'animate__zoomIn');
-        }
-    });
-});
-
-// Menambahkan efek animasi untuk halaman yang baru dimuat
-window.addEventListener('load', function() {
-    document.querySelector('#home').classList.add('animate__animated', 'animate__fadeIn');
-    document.querySelector('#about').classList.add('animate__animated', 'animate__fadeIn');
-    document.querySelector('#programs').classList.add('animate__animated', 'animate__fadeIn');
-    document.querySelector('#management').classList.add('animate__animated', 'animate__fadeIn');
+    if (userResponse) {
+        this.style.transition = 'transform 0.3s ease';
+        this.style.transform = 'scale(1.1)';
+        setTimeout(() => {
+            this.style.transform = 'scale(1)';
+            window.location.href = '#about';
+        }, 300);
+    } else {
+        const message = document.createElement('div');
+        message.textContent = 'Feel free to browse at your own pace!';
+        message.classList.add('message');
+        document.body.appendChild(message);
+        
+        setTimeout(() => {
+            message.classList.add('fade-out');
+            setTimeout(() => {
+                document.body.removeChild(message);
+            }, 300);
+        }, 2000);
+    }
 });

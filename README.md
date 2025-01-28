@@ -119,7 +119,7 @@
         }
 
         .intro {
-            background-color: #6A5ACD;
+            background-color: #6A5ACD; /* Replace this line with your new background color or image */
             color: white;
             padding: 50px 20px;
             text-align: center;
@@ -186,6 +186,16 @@
         </button>
     </section>
 
+    <!-- New Coming Soon Section -->
+    <section id="coming-soon" class="content box">
+        <h2>COMING SOON: TAHFIZH, LITERASI ISLAM, & IMPACTFUL PROGRAMS</h2>
+        <p>
+            Kami akan segera mempersembahkan berbagai kegiatan baru seperti Tahfizh Program, Pelatihan Literasi Islam, dan kegiatan-kegiatan yang bermanfaat untuk umat. Ikuti terus untuk informasi lebih lanjut!
+        </p>
+        <h3>Poster: </h3>
+        <p>Click <a href="https://example.com/poster-link" target="_blank">here</a> to view the event poster.</p>
+    </section>
+
     <section id="about" class="content box">
         <h2>SEJARAH PELAJAR ISLAM INDONESIA</h2>
         <p>
@@ -228,6 +238,10 @@
                 <h5>Bendahara Umum</h5>
                 <p>Rizkiyana Intan Pratiwi</p>
             </div>
+        </div>
+
+        <h2>KEPENGURUSAN INTI</h2>
+        <div class="team">
             <div class="team-member">
                 <img src="image.png" alt="Ketua Bidang Kaderisasi - Nabilatussalamah">
                 <h5>Ketua Bidang Kaderisasi</h5>
@@ -242,7 +256,8 @@
                 <img src="image copy 2.png" alt="Ketua Bidang KU - Hamdi">
                 <h5>Ketua Bidang KU</h5>
                 <p>Hamdi</p>
-             <div class="team-member">
+            </div>
+            <div class="team-member">
                 <img src="image copy.png" alt="Ketua Bidang Keputrian - Nadiratul Munawarah">
                 <h5>Ketua Bidang Keputrian</h5>
                 <p>Nadiratul Munawarah</p>
@@ -301,9 +316,11 @@
                 <h5>Anggota Bidang Keputrian</h5>
                 <p>Fitriana</p>
             </div>
-
-            </div>
         </div>
+    </section>
+    <section id="coming-soon" class="content">
+        <h2>COMING SOON</h2>
+        <p>Information will be available soon.</p>
     </section>
 
     <footer id="contact">

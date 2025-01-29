@@ -108,6 +108,13 @@
                     <p>Kegiatan yang dilaksanakan Sosialisasi untuk penguatan Pengkaderan bersama ROHIS/REMUSH Setiap Sekolah/Madrasah, dan siap Untuk Mengadakan Ta'lim Umum 2025, 09 - Februari - 2025.</p>
                 </div>
             </article>
+            <article class="program">
+                <img src="SELAMAT (4).png" alt="Sosialisasi Pondok Pesantren Dhiaul Fikri">
+                <div class="program-description">
+                    <h4>Pembentukan Pengurus Komisariat (PK-I) MAN 1 MATARAM</h4>
+                    <p>“🚀 OFFICIAL ANNOUNCEMENT! 🚀, Dengan semangat yang membara, akhirnya terbentuklah Pengurus Komisariat (PK) Pelajar Islam Indonesia (PII) Perwakilan Kader PII di bawah naungan Pengurus Daerah (PD) PII Kota Mataram untuk periode 2025-2026! 🎉✨</p>
+                </div>
+            </article>
         </div>
     </section>
 
@@ -225,5 +232,8 @@
         </p>
     </footer>
 
+    <footer>
+        <p>&copy; 2025 Pelajar Islam Indonesia, Kota Mataram. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>

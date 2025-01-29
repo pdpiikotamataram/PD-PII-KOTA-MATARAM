@@ -93,23 +93,18 @@
                     <h4>Sosialisasi Remaja Musholla SMAN 4 MATARAM</h4>
                     <p>Kegiatan yang dilaksanakan Sosialisasi untuk penguatan Pengkaderan bersama ROHIS/REMUSH Setiap Sekolah/Madrasah, dan siap untuk Persiapan LBT Desember 2024.</p>
                 </div>
-            </article>
-        </article>
         <article class="program">
             <img src="WhatsApp Image 2025-01-29 at 12.25.34.jpeg" alt="Sosialisasi Pondok Pesantren Dhiaul Fikri">
             <div class="program-description">
                 <h4>Berakhirnya Masa Leadership Basic Training (LBT) Desember 2024..</h4>
                 <p> LBT dilaksanakan pada tanggal 22 - 28 Desember 2024, Lokasi: SMAN 11 MATARAM. semoga para Kader PII di Mataram dan sekitarnya semakin maju dan kuat untuk menghadapi masa yang akan datang nantinya, dan siap memperkuat para kader PII kita</p>
             </div>
-        </article>
-        </article>
         <article class="program">
             <img src="WhatsApp Image 2025-01-29 at 12.16.58.jpeg" alt="Sosialisasi Pondok Pesantren Dhiaul Fikri">
             <div class="program-description">
                 <h4>Sosialisasi Remaja Musholla MAN 2 MATARAM</h4>
                 <p>Kegiatan yang dilaksanakan Sosialisasi untuk penguatan Pengkaderan bersama ROHIS/REMUSH Setiap Sekolah/Madrasah, dan siap Untuk Mengadakan Ta'lim Umum 2025, 09 - Februari - 2025.</p>
             </div>
-        </article>
         </div>
     </section>
 
